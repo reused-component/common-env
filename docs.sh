@@ -9,14 +9,14 @@ set -e
 
 # show where we are on the machine
 pwd
-remote=git@github.com:decentraland/commons
+remote=git@github.com:reused-component/commons
 
 # make a directory to put the gp-pages branch
 mkdir gh-pages-branch
 cd gh-pages-branch
 # now lets setup a new repo so we can update the gh-pages branch
-git config --global user.email "hello@decentraland.org" > /dev/null 2>&1
-git config --global user.name "decentraland_bot" > /dev/null 2>&1
+git config --global user.email "hello@a.org" > /dev/null 2>&1
+git config --global user.name "_bot" > /dev/null 2>&1
 git init
 git remote add --fetch origin "$remote"
 
