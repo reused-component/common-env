@@ -3,7 +3,7 @@ j
 
 /node_modules/
 
-/dist/
+# /dist/
 
 **/*.js
 **/*.js.map
